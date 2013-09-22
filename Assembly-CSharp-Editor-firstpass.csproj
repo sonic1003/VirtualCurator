@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{785B1166-2D3D-AE4E-ADD8-C38F28C56CCB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_0;UNITY_4_2;UNITY_64;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\EditPrefabIdentifier.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\EditSaveGameManager.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\EditStoreInformation.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\UnitySerializerWindow.cs" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_79_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_33_description.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_28_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_8_description.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_18_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_16_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_22_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_17_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_67_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_55_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_19_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_14_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_80_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_20_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_12_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_54_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_23_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_37_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_29_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_40_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_26_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_49_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_29_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_14_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_7_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_58_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_6_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_32_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_73_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_66_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_59_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_31_description.txt" />
+     <None Include="Assets\VC_aspectRatios.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_23_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Gizmo\_Art\Shader\AlwaysOnTopCenter.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_15_description.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_30_description.txt" />
+     <None Include="Assets\Gizmo\_Art\Shader\AlwaysOnTop.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_85_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_21_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_75_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_7_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_22_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_13_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_31_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_3_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_88_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_77_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_57_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_89_description.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_4_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_27_description.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_25_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_69_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_42_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_71_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_83_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_5_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_1_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_43_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_2_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_70_description.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_87_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_82_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_81_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_52_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_86_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_33_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_5_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_48_description.txt" />
+     <None Include="Assets\Shaders\GlassBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_35_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_46_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_11_description.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_1_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_84_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_42_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_11_description.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_34_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_63_description.txt" />
+     <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_41_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_50_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_17_description.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_38_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_74_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_32_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_25_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Shaders\SimpleGlass.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_37_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_27_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_8_description.txt" />
+     <None Include="Assets\Shaders\Glow.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_2_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_36_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_40_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_9_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_19_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_78_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_0_description.txt" />
+     <None Include="Assets\Shaders\SurfaceReflection.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_56_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_10_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_65_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_3_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_39_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_30_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_35_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_12_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_51_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_6_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_90_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_43_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_68_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_24_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_34_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_9_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_91_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_44_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_76_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_20_description.txt" />
+     <None Include="Assets\Shaders\SurfaceReflectionwithLighting.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_53_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_16_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_15_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_0_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_60_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_21_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_10_description.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_28_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_64_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_13_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_45_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_4_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_62_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_39_description.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_36_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_18_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_26_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_38_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_24_description.txt" />
+     <None Include="Assets\UnitySerializer\readme.txt" />
+     <None Include="Assets\Resources\Artifacts\2D Objects\category_3_painting_41_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_61_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_47_description.txt" />
+     <None Include="Assets\Resources\Artifacts\3D Objects\category_3_sculpture_72_description.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assets\AssetStoreTools\Editor\AssetStoreTools">
+ <HintPath>Assets\AssetStoreTools\Editor\AssetStoreTools.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AF71C943-DF8D-5859-2965-B89810E2E7B2}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{D2528294-E1E3-DF7E-5CAB-50B734FDC5AF}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
