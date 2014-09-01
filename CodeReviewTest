@@ -12,7 +12,12 @@ Enum State {
 
 
 Class Test{
-
+    
+    public healthValue = 100;
+    
+    public AddDamage(){
+    
+    }
 }
 
 
