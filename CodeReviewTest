@@ -3,5 +3,10 @@ This is a code review test file.
 using System;
 
 Class Test{
-
+    
+    public healthValue = 100;
+    
+    public AddDamage(){
+    
+    }
 }
