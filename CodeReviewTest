@@ -2,6 +2,17 @@ This is a code review test file.
 
 using System;
 
+Enum State {
+  
+  ALIVE = 1,
+  DEAD = 2,
+  
+
+}
+
+
 Class Test{
 
 }
+
+
